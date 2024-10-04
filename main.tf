@@ -10,7 +10,7 @@
 
 resource "aws_instance" "ec2-Instance2" {
   provider      = aws.west
-  ami           = "ami-0583d8c7a9c35822c "  # AMI for us-west-1 Red Hat Enterprise Linux 9 (HVM), SSD Volume
+  ami           = "ami-0c5ebd68eb61ff68d "  # AMI for us-west-1 Red Hat Enterprise Linux 9 (HVM), SSD Volume
   instance_type = "t2.micro"
 
   tags = {                                
