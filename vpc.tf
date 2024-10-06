@@ -1,7 +1,7 @@
 module "vpc" {
   source = "terraform-aws-modules/vpc/aws"
 
-  name = "my-custom-vpc"
+  name = "lb-tf-vpc-631737274131"
   cidr = "10.0.0.0/16"
 
   azs             = ["us-east-1a"]
@@ -12,6 +12,6 @@ module "vpc" {
 
   tags = {
     Terraform = "true"
-    Environment = "test"
+    Environment = "learn-terraform-cert"
   }
 }
