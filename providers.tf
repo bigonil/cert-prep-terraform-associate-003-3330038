@@ -14,7 +14,7 @@ provider "aws" {
 }
 
 provider "aws" {
-  alias   = "west"
-  region  = "us-west-1"
+  alias   = "east"
+  region  = "us-east-1"
   profile = "lb-aws-admin"
 }
