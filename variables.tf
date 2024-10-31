@@ -6,7 +6,7 @@
 variable "server_name" {
   type        = string
   description = "Name of the server"
-  default     = "web-server"
+  default     = "tf-web-server"
 }
 
 # boolen
